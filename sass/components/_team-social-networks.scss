@@ -1,0 +1,17 @@
+.team-social-networks {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 0px;
+  padding: 0;
+  li {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    &:not(:first-child) {
+  margin-left: 10px;
+}
+&
+  }
+}

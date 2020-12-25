@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  align-items: center;
+  a {
+    color: $primary-text-color;
+  }
+  ul {
+    display: flex;
+    margin-left: 93px;
+    li:not(:first-child) {
+      margin-left: 30px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+header {
+  background-color: $primary-background-color;
+  .container {
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}
