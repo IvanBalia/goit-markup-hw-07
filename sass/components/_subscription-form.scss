@@ -1,0 +1,62 @@
+.subscription {
+  padding-top: 12px;
+  padding-bottom: 40px;
+}
+.subs-form {
+  display: flex;
+  padding: 0;
+}
+.subs-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+  background-color: $footer-background-color;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+}
+.subs-button {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  border: #2196f3 0px solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  align-items: center;
+  justify-content: space-around;
+  span {
+    padding: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    color: $invert-text-color;
+  }
+}
+.icon-send {
+  height: 24px;
+  fill: $invert-text-color;
+}
+.subs-call {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $invert-text-color;
+  margin-bottom: 20px;
+}

@@ -10,8 +10,23 @@
     height: 44px;
     border-radius: 50%;
     &:not(:first-child) {
-  margin-left: 10px;
-}
-&
+      margin-left: 10px;
+    }
+    &:hover,
+    &:focus {
+      background-color: $hover-color;
+    }
+    &:hover {
+      svg {
+        fill: $primary-background-color;
+      }
+    }
+  }
+  a {
+    display: flex;
+    width: inherit;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
   }
 }
