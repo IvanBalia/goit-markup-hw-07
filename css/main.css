@@ -180,6 +180,10 @@ nav li:not(:first-child) {
   fill: #757575;
 }
 
+.header-contacts span {
+  color: #757575;
+}
+
 .overlay {
   max-width: 1600px;
   height: 600px;
