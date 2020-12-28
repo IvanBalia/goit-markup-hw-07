@@ -11,6 +11,9 @@
     svg {
       fill: $hover-color;
     }
+    span {
+      color: $hover-color;
+    }
   }
 }
 .header-contacts li {
@@ -28,5 +31,10 @@
   fill: $additional-text-color;
 }
 .header-contacts span {
+  font-size: 14px;
+  font-weight: 500;
+
+  font-style: normal;
+
   color: $additional-text-color;
 }

@@ -159,6 +159,10 @@ nav li:not(:first-child) {
   fill: #2196f3;
 }
 
+.header-contacts a:hover span, .header-contacts a:focus span {
+  color: #2196f3;
+}
+
 .header-contacts li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -181,6 +185,9 @@ nav li:not(:first-child) {
 }
 
 .header-contacts span {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
   color: #757575;
 }
 
@@ -760,7 +767,7 @@ span {
   height: 11px;
 }
 
-.close-button:hover svg {
+.close-button svg:hover svg {
   fill: #2196f3;
 }
 
