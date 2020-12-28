@@ -1,29 +1,29 @@
 .header-contacts {
   display: flex;
   margin-left: auto;
-  a {
-    display: flex;
-    align-items: center;
-    color: $additional-text-color;
+}
+.header-contacts a {
+  display: flex;
+  align-items: center;
+  color: $additional-text-color;
+  &:hover,
+  &:focus {
+    svg {
+      fill: $hover-color;
+    }
   }
-  li {
-    display: flex;
-    align-items: center;
-  }
-  li:not(:first-child) {
+}
+.header-contacts li {
+  display: flex;
+  align-items: center;
+  &:not(:first-child) {
     margin-left: 50px;
   }
-  a:hover svg {
-    fill: $hover-color;
-  }
-  a:focus svg {
-    fill: $hover-color;
-  }
-  .icon-convert,
-  .icon-smartphone {
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    fill: $additional-text-color;
-  }
+}
+.icon-convert,
+.icon-smartphone {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: $additional-text-color;
 }

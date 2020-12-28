@@ -155,6 +155,10 @@ nav li:not(:first-child) {
   color: #757575;
 }
 
+.header-contacts a:hover svg, .header-contacts a:focus svg {
+  fill: #2196f3;
+}
+
 .header-contacts li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -168,16 +172,8 @@ nav li:not(:first-child) {
   margin-left: 50px;
 }
 
-.header-contacts a:hover svg {
-  fill: #2196f3;
-}
-
-.header-contacts a:focus svg {
-  fill: #2196f3;
-}
-
-.header-contacts .icon-convert,
-.header-contacts .icon-smartphone {
+.icon-convert,
+.icon-smartphone {
   width: 16px;
   height: 12px;
   margin-right: 10px;
