@@ -7,16 +7,16 @@
   line-height: 1.17;
   padding-top: 94px;
   padding-bottom: 94px;
-  h2 {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.17;
-    color: var(--primary-text-color);
-    margin: 0;
-  }
+}
+.team-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  color: $primary-text-color;
+  margin: 0;
+}
 
-  .team {
-    display: flex;
-    margin: 50px -15px 0;
-  }
+.team {
+  display: flex;
+  margin: 50px -15px 0;
 }

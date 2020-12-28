@@ -4,47 +4,22 @@
   padding-bottom: 94px;
   font-size: 14px;
   text-align: left;
-  ul {
-    display: flex;
-    margin: 0 -15px;
-  }
-  h3 {
-    color: $primary-text-color;
-    font-weight: 700;
-    line-height: 1.17;
-    margin-bottom: 10px;
-    margin-top: 0;
-    width: 270px;
-  }
-  p {
-    color: $additional-text-color;
-    font-weight: 400;
-    line-height: 1.714;
-    margin-bottom: 0;
-  }
-  li {
-    margin: 0 15px;
-    &::before {
-      display: block;
-      content: "";
-      height: 120px;
-      background-color: #f5f4fa;
-      border-radius: 4px;
-      margin-bottom: 30px;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
-    &:nth-child(1)::before {
-      background-image: url(../images/antenna.svg);
-    }
-    &:nth-child(2)::before {
-      background-image: url(../images/clock.svg);
-    }
-    &:nth-child(3)::before {
-      background-image: url(../images/diagram.svg);
-    }
-    &:last-child::before {
-      background-image: url(../images/astronaut.svg);
-    }
-  }
+}
+.features-section ul {
+  display: flex;
+  margin: 0 -15px;
+}
+.features-section h3 {
+  color: $primary-text-color;
+  font-weight: 700;
+  line-height: 1.17;
+  margin-bottom: 10px;
+  margin-top: 0;
+  width: 270px;
+}
+.features-section p {
+  color: $additional-text-color;
+  font-weight: 400;
+  line-height: 1.714;
+  margin-bottom: 0;
 }

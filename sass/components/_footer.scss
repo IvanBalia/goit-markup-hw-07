@@ -12,6 +12,10 @@
     font-style: normal;
     padding: 0;
   }
+  li {
+    margin: 0;
+    padding: 0;
+  }
   li:nth-child(n + 2) {
     margin-top: 9px;
     color: rgba(255, 255, 255, 0.6);

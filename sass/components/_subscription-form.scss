@@ -36,15 +36,16 @@
 
   align-items: center;
   justify-content: space-around;
-  span {
-    padding: auto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.875;
-    color: $invert-text-color;
-  }
 }
+span {
+  padding: auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  color: $invert-text-color;
+}
+
 .icon-send {
   height: 24px;
   fill: $invert-text-color;
